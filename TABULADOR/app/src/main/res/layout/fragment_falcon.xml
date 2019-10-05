@@ -5,7 +5,8 @@
     android:layout_height="match_parent"
     tools:context=".Fragments.FalconFragment"
     android:orientation="vertical"
-    android:paddingTop="16dp">
+    android:paddingTop="16dp"
+    android:background="#b2d3e1">
 
     <ImageView
         android:layout_width="match_parent"
