@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="369dp"
+        android:orientation="horizontal">
+
+        <fragment
+            android:id="@+id/fragment3"
+            android:name="com.example.eva1_exa_1.txtFragment"
+            android:layout_width="379dp"
+            android:layout_height="233dp"
+            tools:layout="@layout/fragment_txt" />
+
+        <fragment
+            android:id="@+id/fragment4"
+            android:name="com.example.eva1_exa_1.scrollFragment"
+            android:layout_width="match_parent"
+            android:layout_height="298dp"
+            tools:layout="@layout/fragment_scroll" />
+
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/fragment_img"
+        android:name="com.example.eva1_exa_1.imageFragment"
+        android:layout_width="match_parent"
+        android:layout_height="394dp"
+        tools:layout="@layout/fragment_image" />
+</LinearLayout>

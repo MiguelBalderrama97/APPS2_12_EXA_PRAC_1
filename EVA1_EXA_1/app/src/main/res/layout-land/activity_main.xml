@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="375dp"
+        android:orientation="horizontal">
+
+        <fragment
+            android:id="@+id/fragment_img"
+            android:name="com.example.eva1_exa_1.imageFragment"
+            android:layout_width="597dp"
+            android:layout_height="335dp"
+            android:clipToPadding="true"
+            android:padding="3dp"
+            android:paddingStart="3dp"
+            android:paddingLeft="3dp"
+            android:paddingTop="3dp"
+            android:paddingEnd="3dp"
+            android:paddingRight="3dp"
+            android:paddingBottom="3dp"
+            tools:layout="@layout/fragment_image" />
+
+        <fragment
+            android:id="@+id/fragment3"
+            android:name="com.example.eva1_exa_1.txtFragment"
+            android:layout_width="359dp"
+            android:layout_height="312dp"
+            android:padding="10dp"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            tools:layout="@layout/fragment_txt" />
+
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/fragment4"
+        android:name="com.example.eva1_exa_1.scrollFragment"
+        android:layout_width="match_parent"
+        android:layout_height="232dp"
+        tools:layout="@layout/fragment_scroll" />
+
+</LinearLayout>

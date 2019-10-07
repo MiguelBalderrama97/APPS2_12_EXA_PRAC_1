@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EVA1_EXA_1</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="the_space_shttle_was_a_partially_resusable_low_earth_orbital_spacecraft_system_operated_by_the_nasa_as_a_part_of_the_space_shuttle_program_its_oficialy_program_name_was_space_transportation">The space shttle was a partially resusable low earth orbital spacecraft system operated by the NASA, as a part of the Space Shuttle program. its oficialy program name was Space Transportation</string>
+</resources>
