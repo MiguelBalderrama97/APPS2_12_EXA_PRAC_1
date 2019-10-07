@@ -11,26 +11,31 @@
     <EditText
         android:id="@+id/etxtField1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
 
     <EditText
         android:id="@+id/etxtField2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
 
     <Button
         android:id="@+id/btnCalculate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Calcular"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:visibility="invisible"/>
 
     <TextView
         android:id="@+id/txtResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Area: 20 cm2"
+        android:text="Area:"
         android:textSize="20dp"
         android:layout_gravity="center"/>
+
+
 
 </LinearLayout>

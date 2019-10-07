@@ -14,22 +14,25 @@
         android:layout_weight="1"
         android:orientation="horizontal">
 
-        <FrameLayout
-            android:id="@+id/frameFigures"
+        <fragment
+            android:id="@+id/fragFigures"
+            android:name="com.example.miguel.figuras.Fragments.FiguresFragment"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"/>
 
-        <FrameLayout
-            android:id="@+id/frameArea"
+        <fragment
+            android:id="@+id/fragArea"
+            android:name="com.example.miguel.figuras.Fragments.AreaFragment"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"/>
 
     </LinearLayout>
 
-    <FrameLayout
-        android:id="@+id/frameImages"
+    <fragment
+        android:id="@+id/fragImages"
+        android:name="com.example.miguel.figuras.Fragments.ImageFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"/>
