@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.FiguresFragment"
+    android:orientation="vertical"
+    android:paddingRight="8dp"
+    android:paddingBottom="8dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rbRec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rectangulo"/>
+            <RadioButton
+                android:id="@+id/rbTri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Triangulo"/>
+            <RadioButton
+                android:id="@+id/rbRom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rombo"/>
+            <RadioButton
+                android:id="@+id/rbPen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pentagono"/>
+            <RadioButton
+                android:id="@+id/rbHex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hexagono"/>
+            <RadioButton
+                android:id="@+id/rbPir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Piramide"/>
+            <RadioButton
+                android:id="@+id/rbPris"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prisma Rec"/>
+            <RadioButton
+                android:id="@+id/rbCom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cometa"/>
+            <RadioButton
+                android:id="@+id/rbCor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Corona"/>
+
+        </RadioGroup>
+
+    </ScrollView>
+
+</LinearLayout>
